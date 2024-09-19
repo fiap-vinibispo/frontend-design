@@ -1,0 +1,16 @@
+p.desafio {
+    color: orange;
+}
+
+#lista1, #lista2 {
+    color: #0000f0;
+    background-color: rgba(200, 100, 400, 0.5);
+}
+
+#lista1 {
+    list-style-type: lower-greek;
+}
+
+#lista2 {
+    list-style-type: decimal-leading-zero;
+}
