@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade</title>
+</head>
+<body>
+    <div class="box blue"></div>
+    <div class="box red"></div>
+    <button type="button" onclick="alteraZIndex()">Altera</button>
+
+    <script>
+        function alteraZIndex() {
+            const blueDiv = document.querySelector('.blue')
+            const redDiv = document.querySelector('.red')
+            const zIndexBlue = blueDiv.style.zIndex
+            console.log(zIndexBlue)
+            const zIndexRed = redDiv.style.zIndex
+            console.log(zIndexRed)
+            blueDiv.style.zIndex = zIndexRed
+            redDiv.style.zIndex = zIndexBlue
+        }
+    </script>
+</body>
+</html>

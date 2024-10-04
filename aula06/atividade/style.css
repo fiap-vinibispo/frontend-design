@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    background-color: blue;
+    border: 4px solid lightblue;
+    position: absolute;
+    z-index: 2;
+}
+
+.red {
+    background-color: red;
+    border: 4px solid orange;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+button {
+    margin-top: 500px;
+}
