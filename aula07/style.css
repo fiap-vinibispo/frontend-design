@@ -1,0 +1,83 @@
+div:hover {
+    color: orange;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: brown;
+}
+
+.menu > li:first-child {
+    color: orange;
+}
+
+.menu > li:last-child {
+    color: red;
+}
+
+.menu > li:nth-child(odd) {
+    zoom: 3;
+}
+
+.my-list > li:first-child {
+    color: goldenrod;
+}
+
+.my-list > li:last-child {
+    border: 1px dotted black;
+    color: chocolate;
+}
+
+.my-list > li:nth-child(odd) {
+    background-color: #fff;
+}
+
+.my-list > li:not(li:last-child) {
+    border: 3px dashed green;
+}
+
+[type="checkbox"]:checked {
+    font-size: 40px;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+}
+
+button:disabled {
+    transform: rotate3d(1, 1, 1, 45deg);
+    cursor: not-allowed;
+}
+
+.text > input::placeholder {
+    font-size: 20px;
+}
+
+.text > p::first-letter {
+    font-size: 40px;
+    color: #fff;
+    background-color: #000;
+    text-transform: uppercase;
+}
+
+.text > p::selection {
+    color: pink;
+    background-color: beige;
+}
+
+.text > p::first-line {
+    background-color: blue;
+    color: lightblue;
+}
+
+.text ::marker {
+    transform: scaleX(10)
+}
