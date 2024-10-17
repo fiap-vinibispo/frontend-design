@@ -1,0 +1,22 @@
+div {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+.gradient-bottom {
+    background-image: linear-gradient(to bottom, red, blue);
+}
+
+.gradient-right {
+    background-image: linear-gradient(to right, green, yellow);
+}
+
+.gradient-left {
+    background-image: linear-gradient(to left, black, white);
+}
+
+.gradient-top {
+    background-image: linear-gradient(to top, gray, blue);
+}
